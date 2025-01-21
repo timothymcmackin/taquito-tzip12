@@ -2,7 +2,7 @@
   import { BeaconWallet } from "@taquito/beacon-wallet";
   import { NetworkType } from "@airgap/beacon-types";
   import { TezosToolkit, MichelsonMap } from "@taquito/taquito";
-  import { Tzip12Module } from '@taquito/tzip12';
+  import { Tzip12Module, tzip12 } from '@taquito/tzip12';
 
   const rpcUrl = "https://rpc.ghostnet.teztnets.com";
   const Tezos = new TezosToolkit(rpcUrl);
